@@ -198,3 +198,355 @@ PromptForge-AI
 GitHub Repository
 
 https://github.com/slmedx6-commits/PromptForge-AI
+
+---
+
+# ⚙️ Installation Guide
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/slmedx6-commits/PromptForge-AI.git
+```
+
+```bash
+cd PromptForge-AI
+```
+
+---
+
+# 🖥 Backend Setup
+
+Navigate to the backend directory.
+
+```bash
+cd backend
+```
+
+## Create Virtual Environment
+
+Windows
+
+```bash
+python -m venv venv
+```
+
+Activate
+
+```bash
+venv\Scripts\activate
+```
+
+Linux / macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Configure Environment Variables
+
+Create a file named
+
+```
+.env
+```
+
+Example
+
+```env
+DATABASE_URL=sqlite:///./promptforge.db
+
+SECRET_KEY=your_secret_key
+
+ALGORITHM=HS256
+
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+OPENAI_API_KEY=your_api_key
+```
+
+---
+
+## Start Backend Server
+
+```bash
+uvicorn main:app --reload
+```
+
+Backend will run at
+
+```
+http://127.0.0.1:8000
+```
+
+Swagger API Documentation
+
+```
+http://127.0.0.1:8000/docs
+```
+
+---
+
+# 🌐 Frontend Setup
+
+Open another terminal.
+
+```bash
+cd frontend
+```
+
+Install packages
+
+```bash
+npm install
+```
+
+---
+
+## Configure Environment
+
+Create
+
+```
+.env.local
+```
+
+Example
+
+```env
+NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
+```
+
+---
+
+## Start Frontend
+
+```bash
+npm run dev
+```
+
+Application
+
+```
+http://localhost:3000
+```
+
+---
+
+# 📡 API Overview
+
+PromptForge AI provides REST APIs built with FastAPI.
+
+### Authentication
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | /register | Register User |
+| POST | /login | Login User |
+
+---
+
+### Prompt APIs
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | /prompt/enhance | Enhance Prompt |
+| GET | /prompt/history | Prompt History |
+| POST | /prompt/save | Save Prompt |
+
+---
+
+### Conversation APIs
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | /conversation | Create Conversation |
+| GET | /conversation | Get Conversations |
+
+---
+
+### Message APIs
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | /message | Save Message |
+| GET | /message | Retrieve Messages |
+
+---
+
+# 🔒 Authentication Flow
+
+```
+User
+
+↓
+
+Register
+
+↓
+
+Login
+
+↓
+
+JWT Token Generated
+
+↓
+
+Protected API Access
+
+↓
+
+Prompt Enhancement
+
+↓
+
+History Stored
+```
+
+---
+
+# 📂 Backend Architecture
+
+```
+FastAPI
+
+│
+
+├── API Routers
+
+├── Services
+
+├── Models
+
+├── Database
+
+├── AI Engine
+
+├── ML Models
+
+├── Utilities
+
+└── Authentication
+```
+
+---
+
+# 🖥 Frontend Architecture
+
+```
+Next.js
+
+│
+
+├── Landing Page
+
+├── Authentication
+
+├── Dashboard
+
+├── Prompt Forge
+
+├── History
+
+├── Components
+
+├── Services
+
+├── Store
+
+└── Layout
+```
+
+---
+
+# 📁 Important Directories
+
+```
+backend/app/api
+```
+
+REST APIs
+
+```
+backend/app/models
+```
+
+Database Models
+
+```
+backend/app/services
+```
+
+Business Logic
+
+```
+backend/app/ml
+```
+
+Machine Learning Models
+
+```
+backend/app/ai
+```
+
+Prompt Engineering Engine
+
+```
+frontend/app
+```
+
+Application Pages
+
+```
+frontend/components
+```
+
+Reusable UI Components
+
+```
+frontend/services
+```
+
+API Integration
+
+```
+frontend/store
+```
+
+Global State Management
+
+---
+
+# 🚀 Running the Complete Project
+
+Start Backend
+
+```bash
+uvicorn main:app --reload
+```
+
+Start Frontend
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:3000
+```
+
+Enjoy PromptForge AI 🎉
