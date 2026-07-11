@@ -550,3 +550,306 @@ http://localhost:3000
 ```
 
 Enjoy PromptForge AI 🎉
+
+---
+
+# 🧠 Machine Learning
+
+PromptForge AI integrates Machine Learning techniques to analyze prompts and provide intelligent insights.
+
+## ML Features
+
+- Prompt Quality Scoring
+- Prompt Classification
+- Intent Prediction
+- Complexity Detection
+- AI Recommendation Engine
+
+---
+
+## ML Workflow
+
+```text
+User Prompt
+      │
+      ▼
+Data Preprocessing
+      │
+      ▼
+Feature Extraction
+      │
+      ▼
+Machine Learning Model
+      │
+      ▼
+Prediction
+      │
+      ▼
+Quality Analysis
+      │
+      ▼
+Enhanced Prompt
+```
+
+---
+
+## ML Output
+
+The Machine Learning engine predicts:
+
+- Prompt Quality
+- Prompt Category
+- Prompt Intent
+- Prompt Complexity
+
+Example
+
+| Attribute | Example |
+|-----------|----------|
+| Quality Score | 94 |
+| Category | Programming |
+| Intent | Generate Code |
+| Complexity | Intermediate |
+
+---
+
+# 📊 Data Science
+
+PromptForge AI also performs Data Science analysis on every prompt.
+
+## Data Science Features
+
+- Word Count
+- Character Count
+- Reading Time
+- Prompt Statistics
+- Historical Analytics
+
+---
+
+## Analytics Dashboard
+
+Every enhanced prompt includes
+
+- Total Words
+- Total Characters
+- Reading Time
+- Quality Score
+- Category
+- Intent
+- Complexity
+
+---
+
+# 🗄 Database Design
+
+Main Database Tables
+
+```text
+Users
+
+↓
+
+Conversations
+
+↓
+
+Messages
+
+↓
+
+Prompt History
+
+↓
+
+Favorites
+
+↓
+
+Prompt Versions
+```
+
+---
+
+## Database Models
+
+- User
+- Conversation
+- Message
+- Prompt
+- Prompt Session
+- Prompt Version
+- Favorite
+- AI Model
+
+---
+
+# 📸 Application Screenshots
+
+> Replace these placeholders after taking screenshots.
+
+## Landing Page
+
+```
+docs/images/home.png
+```
+
+---
+
+## Login Page
+
+```
+docs/images/login.png
+```
+
+---
+
+## Dashboard
+
+```
+docs/images/dashboard.png
+```
+
+---
+
+## PromptForge AI Workspace
+
+```
+docs/images/forge.png
+```
+
+---
+
+## Prompt History
+
+```
+docs/images/history.png
+```
+
+---
+
+## ML Analysis
+
+```
+docs/images/ml-analysis.png
+```
+
+---
+
+## Data Science Analysis
+
+```
+docs/images/ds-analysis.png
+```
+
+---
+
+# 🎥 Demo
+
+A short demonstration of PromptForge AI.
+
+Coming Soon...
+
+---
+
+# 🚀 Future Roadmap
+
+## Version 1.1
+
+- Dark / Light Theme
+- AI Templates
+- Better Prompt Suggestions
+
+---
+
+## Version 2.0
+
+- GPT Integration
+- Claude Integration
+- Gemini Integration
+- Prompt Marketplace
+
+---
+
+## Version 3.0
+
+- Team Workspace
+- Prompt Sharing
+- Cloud Sync
+- AI Agents
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+Steps
+
+1. Fork the repository
+
+2. Create a branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Create a Pull Request
+
+---
+
+# 👨‍💻 Author
+
+## SHAIK SALEEM
+
+MCA Student
+
+Python Full Stack Developer
+
+AI & Machine Learning Enthusiast
+
+GitHub
+
+https://github.com/slmedx6-commits
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+---
+
+# ⭐ Support
+
+If you like this project,
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+💡 Share your feedback
+
+---
+
+<p align="center">
+
+Made with ❤️ using
+
+FastAPI • Next.js • TypeScript • Python • Machine Learning • Data Science
+
+</p>
