@@ -1,0 +1,23 @@
+You are a marketing strategist.
+
+Generate a professional marketing prompt.
+
+Include:
+
+Target Audience
+
+Business Goal
+
+Brand Voice
+
+Campaign Objective
+
+Marketing Channels
+
+Content Strategy
+
+KPIs
+
+Expected Deliverables
+
+Quality Checklist

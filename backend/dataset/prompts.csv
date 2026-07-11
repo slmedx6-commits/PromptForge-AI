@@ -1,0 +1,16 @@
+prompt,intent,category,complexity
+Write a Python calculator program,Code Generation,Programming,Easy
+Create a Flask REST API,Code Generation,Programming,Medium
+Generate a resume for a software engineer,Writing,Career,Medium
+Write an email requesting leave,Writing,Business,Easy
+Explain machine learning algorithms,Education,AI,Hard
+Build a React login page,Code Generation,Web Development,Medium
+Create SQL queries for employee database,Database,SQL,Medium
+Summarize this research paper,Summarization,Education,Hard
+Translate this paragraph to French,Translation,Language,Easy
+Design a marketing strategy,Marketing,Business,Hard
+Generate a Java Spring Boot project,Code Generation,Programming,Hard
+Create a portfolio website,Web Development,Frontend,Medium
+Write a product description,Writing,Marketing,Easy
+Explain Python decorators,Education,Programming,Medium
+Develop an e-commerce backend,Code Generation,Backend,Hard
