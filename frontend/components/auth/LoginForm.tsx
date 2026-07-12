@@ -28,12 +28,20 @@ export default function LoginForm() {
       const res = await loginUser(data);
 
       Cookies.set("token", res.access_token, {
-        expires: 7,
-      });
+  expires: 7,
+});
 
-      setToken(res.access_token);
+setToken(res.access_token);
 
-      router.push("/dashboard");
+// Save logged-in user
+localStorage.setItem(
+  "current-user",
+  JSON.stringify({
+    email: data.email,
+  })
+);
+
+router.push("/dashboard");
     } catch (error: any) {
       if (error.response) {
         alert(JSON.stringify(error.response.data));

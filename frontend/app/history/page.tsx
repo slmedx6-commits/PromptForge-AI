@@ -15,11 +15,17 @@ export default function HistoryPage() {
   const [history, setHistory] = useState<HistoryItem[]>([]);
 
   useEffect(() => {
-    const stored = localStorage.getItem("prompt-history");
+    const user = JSON.parse(
+  localStorage.getItem("current-user") || "{}"
+);
 
-    if (stored) {
-      setHistory(JSON.parse(stored));
-    }
+const historyKey = `prompt-history-${user.email}`;
+
+const stored = localStorage.getItem(historyKey);
+
+if (stored) {
+  setHistory(JSON.parse(stored));
+}
   }, []);
 
   return (

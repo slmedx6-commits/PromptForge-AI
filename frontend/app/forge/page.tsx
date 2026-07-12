@@ -92,13 +92,20 @@ const historyItem: HistoryItem = {
 };
 
 setHistory((prev) => [...prev, historyItem]);
-const stored =
-  JSON.parse(localStorage.getItem("prompt-history") || "[]");
+const user = JSON.parse(
+  localStorage.getItem("current-user") || "{}"
+);
+
+const historyKey = `prompt-history-${user.email}`;
+
+const stored = JSON.parse(
+  localStorage.getItem(historyKey) || "[]"
+);
 
 stored.unshift(historyItem);
 
 localStorage.setItem(
-  "prompt-history",
+  historyKey,
   JSON.stringify(stored)
 );
 
