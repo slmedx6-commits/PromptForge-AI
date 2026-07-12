@@ -686,61 +686,54 @@ Prompt Versions
 
 # 📸 Application Screenshots
 
-> Replace these placeholders after taking screenshots.
+## 🏠 Landing Page
 
-## Landing Page
-
-```
-docs/images/home.png
-```
+![Landing Page](docs/images/home.png)
 
 ---
 
-## Login Page
+## 🔐 Login
 
-```
-docs/images/login.png
-```
+![Login](docs/images/login.png)
 
 ---
 
-## Dashboard
+## 📝 Register
 
-```
-docs/images/dashboard.png
-```
+![Register](docs/images/register.png)
 
 ---
 
-## PromptForge AI Workspace
+## 📊 Dashboard
 
-```
-docs/images/forge.png
-```
+![Dashboard](docs/images/dashboard.png)
 
 ---
 
-## Prompt History
+## 🤖 PromptForge AI Workspace
 
-```
-docs/images/history.png
-```
-
----
-
-## ML Analysis
-
-```
-docs/images/ml-analysis.png
-```
+![PromptForge AI](docs/images/forge1.png)
+![PromptForge AI](docs/images/forge2.png)
+![PromptForge AI](docs/images/forge3.png)
+![PromptForge AI](docs/images/forge4.png)
 
 ---
 
-## Data Science Analysis
+## 📜 Prompt History
 
-```
-docs/images/ds-analysis.png
-```
+![History](docs/images/history.png)
+
+---
+
+## 🧠 Machine Learning Analysis
+
+![ML Analysis](docs/images/ml-analysis.png)
+
+---
+
+## 📈 Data Science Analysis
+
+![DS Analysis](docs/images/ds-analysis.png)
 
 ---
 
