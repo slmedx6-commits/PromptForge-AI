@@ -698,12 +698,6 @@ Prompt Versions
 
 ---
 
-## 📝 Register
-
-![Register](docs/images/register.png)
-
----
-
 ## 📊 Dashboard
 
 ![Dashboard](docs/images/dashboard.png)
